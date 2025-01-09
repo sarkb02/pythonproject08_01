@@ -35,7 +35,7 @@ while (n <= 100):
 
 n = 0
 
-while n<=100:
+while n<100:
     n += 1
     if (n%15==0): #oder: if x and y
         print("digital history")
