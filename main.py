@@ -31,7 +31,8 @@ while (n <= 100):
         print(n)
     n = n + 1
 
-#Ersetze alle Zahlen die durch 5 teilbar sind durch "history", die durch 3 teilbar sind durch "digital" und die durch beide durch "digital history"
+#Ersetze alle Zahlen die durch 5 teilbar sind durch "history"
+# Zahlen, die durch 3 teilbar sind durch "digital" und die durch beide durch "digital history"
 
 n = 0
 
@@ -45,3 +46,10 @@ while n<100:
         print("digital history")
     else:
         print(n)
+
+with open("persons.txt", mode="r", encoding="utf-8") as f:
+    lines = f.readlines()
+    print(lines[1])
+    print(lines[5])
+
+#probleme sammeln bis Dienstag auf moodle eintragen; code+python/git
